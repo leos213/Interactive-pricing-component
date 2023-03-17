@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="script.js" defer></script>
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <main>
+      <div class="head-name">
+        <h1>Simple, traffic-based pricing</h1>
+        <h6>Sign-up for our 30-day trial. No credit card required.</h6>
+      </div>
+      <div class="container">
+        <div class="view-amount"> 
+          <div class="view">Page View</div>
+          <div class="amount-month">
+            <div class="amount">$16.00</div>
+            <div class="month">/ month</div>
+          </div>
+        </div>
+        <input
+          id="range"
+          class="slider"
+          type="range"
+          min="0"
+          max="4"
+          value=""
+        />
+        <div class="billing">
+          <div class="month-billing">Monthly Billing</div>
+          <label class="switch">
+            <input type="checkbox" id="check" />
+            <span id="slidcircle" class="slidcircle"></span>
+          </label>
+          <p>Yearly Billing</p>
+          <div class="discount">
+            <h4>-25%</h4>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="last">
+          <div class="footer">
+            <div class="item1">
+              <img src="./images/icon-check.svg" alt="" />
+              Unlimited websites
+            </div>
+            <div class="item2">
+              <img src="./images/icon-check.svg" alt="" />
+              100% data ownership
+            </div>
+            <div class="item3">
+              <img src="./images/icon-check.svg" alt="" />
+              Email reports
+            </div>
+          </div>
+          <button>Start my trial</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
